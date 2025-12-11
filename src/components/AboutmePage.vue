@@ -1,11 +1,11 @@
 <script setup>
 import Navbar from './Navbar.vue';
-import Hero from './Hero.vue';  
+import AboutMe from './AboutMe.vue';
 import Footer from './Footer.vue';
 </script>
 
 <template>
   <Navbar />
-  <Hero />
+  <AboutMe />
   <Footer />
 </template>

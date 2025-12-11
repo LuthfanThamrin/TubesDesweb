@@ -3,6 +3,9 @@ import { createWebHashHistory, createRouter } from "vue-router";
 import HomePage from "@/components/HomePage.vue";
 import ContactPage from "@/components/ContactPage.vue";
 import GaleriPage from "@/components/GaleriPage.vue";
+import TiketHomepage from "@/components/TiketHomepage.vue";
+import TentangPage from "@/components/TentangPage.vue";
+import AboutmePage from "@/components/AboutmePage.vue";
 
 const routes = [
     {
@@ -21,6 +24,21 @@ const routes = [
         name: 'Galeri',
         component: GaleriPage,
     },
+    {
+        path: '/tiket',
+        name: 'Tiket',
+        component: TiketHomepage,
+    },
+    {
+
+        path:'/tentang',
+        name:'Tentang',
+        component:TentangPage
+    },
+    {    path:'/aboutme',
+        name:'AboutMe',
+        component:AboutmePage
+    }
 ];
 
 const router = createRouter({

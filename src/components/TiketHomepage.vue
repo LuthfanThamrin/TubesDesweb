@@ -1,11 +1,13 @@
 <script setup>
 import Navbar from './Navbar.vue';
-import Hero from './Hero.vue';  
+import Aktifitas from './Aktifitas.vue';
+import Tiket from './Tiket.vue';
 import Footer from './Footer.vue';
 </script>
 
 <template>
   <Navbar />
-  <Hero />
+  <Aktifitas />
+  <Tiket />
   <Footer />
 </template>

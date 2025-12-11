@@ -19,7 +19,7 @@
           <router-link to="/" class="block py-2 px-3 text-white rounded hover:bg-green-600 md:hover:bg-transparent md:border-0 md:hover:text-green-200 md:p-0">Tentang</router-link>
         </li>
         <li>
-          <router-link to="/" class="block py-2 px-3 text-white rounded hover:bg-green-600 md:hover:bg-transparent md:border-0 md:hover:text-green-200 md:p-0">Galeri</router-link>
+          <router-link to="/galeri" class="block py-2 px-3 text-white rounded hover:bg-green-600 md:hover:bg-transparent md:border-0 md:hover:text-green-200 md:p-0">Galeri</router-link>
         </li>
         <li>
           <router-link to="/" class="block py-2 px-3 text-white rounded hover:bg-green-600 md:hover:bg-transparent md:border-0 md:hover:text-green-200 md:p-0">Tiket</router-link>
